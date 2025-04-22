@@ -113,17 +113,23 @@
                 </a>
             </div> -->
             <div class="col-md-2 text-center">
-                <!-- <a href="https://colab.research.google.com/drive/1zMiSNYJBz1Jcqi0tTHJ0ADiqwa8ces2d?usp=sharing"> -->
+                <a href="https://colab.research.google.com/drive/1zMiSNYJBz1Jcqi0tTHJ0ADiqwa8ces2d?usp=sharing">
                 <image src="img/colab.png" height="45px">
                 <h4><strong>Colab</strong></h4>
                 <!-- <h6>Demo (coming soon)</h6> -->
                 </a>
             </div>
             <div class="col-md-2 text-center">
-                <!-- <a href="https://drive.google.com/drive/folders/1F6PTA2elrPjaN9ReuTY2TNjMhk-VGV1b?usp=drive_link"> -->
+                <a href="https://drive.google.com/drive/folders/1F6PTA2elrPjaN9ReuTY2TNjMhk-VGV1b?usp=drive_link">
                 <image src="img/dataset.png" height="45px">
                 <h4><strong>Dataset</strong></h4>
                 <!-- <h6>Demo (coming soon)</h6> -->
+                </a>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="https://vimeo.com/1068295325/a20fe20c9b?share=copy">
+                <image src="img/vimeo.jpg" height="45px">
+                <h4><strong>Demonstration</strong></h4>
                 </a>
             </div>
         </div>
@@ -146,10 +152,47 @@
                     Abstract
                 </h3>
                 <p class="text-justify">
-                    Paper can be found <a href="https://arxiv.org/abs/2309.10092">here</a>.
+                    Linear Temporal Logic (LTL) has become a prevalent specification language for robotic tasks. To mitigate the significant manual effort and expertise required to define LTL-encoded tasks, several methods have been proposed for translating Natural Language (NL) instructions into LTL formulas, which, however, lack correctness guarantees. To address this, we introduce a new NL-to-LTL translation method, called ConformalNL2LTL, that can achieve user-defined translation success rates over unseen NL commands. Our method constructs LTL formulas iteratively by addressing a sequence of open-vocabulary Question-Answering (QA) problems with LLMs. To enable uncertainty-aware translation, we leverage conformal prediction (CP), a distribution-free uncertainty quantification tool for black-box models. CP enables our method to assess the uncertainty in LLM-generated answers, allowing it to proceed with translation when sufficiently confident and request help otherwise. We provide both theoretical and empirical results demonstrating that ConformalNL2LTL achieves user-specified translation accuracy while minimizing help rates.
             </div>
         </div>
 
+
+        <div class="container mt-4">
+            <!-- First Row -->
+            <h3 class="mt-4 mb-2">
+                Demonstration Videos - Unitree Go2
+            </h3>
+            <div class="d-flex justify-content-center flex-wrap mb-3">
+                <div class="p-2" style="flex: 0 0 50%;">
+                    <video width="100%" preload="metadata" playsinline muted loop autoplay>
+                        <source src="video/robot_dog_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-2" style="flex: 0 0 50%;">
+                    <video width="100%" preload="metadata" playsinline muted loop autoplay>
+                        <source src="video/robot_dog_2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            
+            <h3 class="mt-4 mb-2">
+                Demonstration Videos - TurtleBot 3 Waffle Pi (OpenManipulator-X)
+            </h3>
+            <!-- Second Row -->
+            <div class="d-flex justify-content-center flex-wrap mb-3">
+                <div class="p-2" style="flex: 0 0 50%;">
+                    <video width="100%" preload="metadata" playsinline muted loop autoplay>
+                        <source src="video/turtlebot_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="p-2" style="flex: 0 0 50%;">
+                    <video width="100%" preload="metadata" playsinline muted loop autoplay>
+                        <source src="video/turtlebot_2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        
+        </div>
         
 
         <!-- <div class="row justify-content-md-center">
@@ -417,8 +460,8 @@
                 <!-- <a href="https://arxiv.org/abs/2309.10092">[arxiv version]</a> -->
                 <div class="form-group col-md-12">
                     
-                    <textarea id="bibtex" class="form-control" rows="8" readonly>
-aaa 
+                    <textarea id="bibtex" class="form-control" rows="6" readonly>
+Online Soon
                     </textarea>
                 </div>
             </div>
